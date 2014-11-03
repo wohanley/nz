@@ -29,7 +29,9 @@ class SlickGame(title: String) extends BasicGame(title) {
       up.update(agent, container)
     }
 
-    this.gameState.map(state => state.agents.map(updateAgent))
+    this.gameState.map(state =>
+      state.agents.map(
+        agent => agent.update(container)))
   }
 
   override def render(container: GameContainer, graphics: Graphics): Unit = {
