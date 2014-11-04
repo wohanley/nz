@@ -1,9 +1,8 @@
 package nz
 
+import nz.geometry.Vector
 import nz.models.GameState
 import nz.models.LocalMap
-import nz.models.Vector
-import nz.models.WinterKid
 import org.newdawn.slick.AppGameContainer
 import org.newdawn.slick.BasicGame
 import org.newdawn.slick.GameContainer
